@@ -1,9 +1,6 @@
 # This class is responsible for talking to google sheets
 import requests
-import os
-from dotenv import load_dotenv
-load_dotenv()
-SHEETY_ENDPOINT = os.environ.get('SHEETY_ENDPOINT')
+SHEETY_ENDPOINT = 'https://api.sheety.co/6e46dcf33f155c3a29e2aeb53bfbd031/flightDeals/prices'
 
 
 class DataManager:
